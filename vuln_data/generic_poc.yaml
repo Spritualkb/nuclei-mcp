@@ -1,0 +1,19 @@
+id: generic-poc
+
+info:
+  name: Generic POC Template
+  author: SecMate
+  severity: medium
+  description: |
+    This is a generic POC template for testing purposes.
+    Replace the placeholders with actual values to create a specific POC.
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}/vulnerable-endpoint"
+    matchers:
+      - type: word
+        words:
+          - "vulnerable string"
+        part: body
