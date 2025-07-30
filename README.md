@@ -8,6 +8,10 @@ This is a TypeScript-based MCP server that implements a simple notes system. It 
 - Tools for creating new notes
 - Prompts for generating summaries of notes
 
+<a href="https://glama.ai/mcp/servers/@Spritualkb/nuclei-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@Spritualkb/nuclei-mcp/badge" alt="nuclei-server Server MCP server" />
+</a>
+
 ## Features
 
 ### Resources
